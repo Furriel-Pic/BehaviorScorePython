@@ -14,5 +14,5 @@ Behavior Score Kaggle
 <img align="center" width="600" height="400"  src="https://github.com/WOLFurriell/BehaviorScorePython/blob/master/plots/cor1.png">
 
 
-<img align="center" width="800" height="1000"  src="https://github.com/WOLFurriell/BehaviorScorePython/blob/master/plots/WOE2.png">
+<img align="center" width="800" height="1300"  src="https://github.com/WOLFurriell/BehaviorScorePython/blob/master/plots/WOE2.png">
 .
