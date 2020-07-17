@@ -14,8 +14,11 @@ Behavior Score Kaggle
 
 <img align="center" width="800" height="1300"  src="https://github.com/WOLFurriell/BehaviorScorePython/blob/master/plots/WOE2.png">
 
+<img align="center" width="500" height="400"  src="https://github.com/WOLFurriell/BehaviorScorePython/blob/master/plots/balanc.png">
+
 <img align="center" width="800" height="700"  src="https://github.com/WOLFurriell/BehaviorScorePython/blob/master/plots/ordena.png">
 
 <img align="center" width="800" height="1800"  src="https://github.com/WOLFurriell/BehaviorScorePython/blob/master/plots/ranks.png">
 
 <img align="center" width="800" height="400"  src="https://github.com/WOLFurriell/BehaviorScorePython/blob/master/plots/compara.png">
+
