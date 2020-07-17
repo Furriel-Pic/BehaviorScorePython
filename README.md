@@ -1,10 +1,8 @@
-# BehaviorScorePython
+#### DRAFT
 
 
 O intuito deste estudo foi comparar quatro abordagens distintas para modelagem de informações de crédito, considerando bases balanceados e desbalanceadas, bem como considerando as variáveis preditoras originais e por WOE. No processo de modelagem foram utilizados os algoritmos de Random Forest, Redes Neurais, AdaBoost, Gradient Boosting e Regressão Logística. 
 
-
-# Distribution of atributes and skills
 
 <img align="center" width="500" height="300"  src="https://github.com/WOLFurriell/BehaviorScorePython/blob/master/plots/donut3.png">
 
