@@ -16,6 +16,6 @@ Behavior Score Kaggle
 
 <img align="center" width="800" height="700"  src="https://github.com/WOLFurriell/BehaviorScorePython/blob/master/plots/ordena.png">
 
-<img align="center" width="800" height="1500"  src="https://github.com/WOLFurriell/BehaviorScorePython/blob/master/plots/ranks.png">
+<img align="center" width="800" height="1700"  src="https://github.com/WOLFurriell/BehaviorScorePython/blob/master/plots/ranks.png">
 
 <img align="center" width="800" height="400"  src="https://github.com/WOLFurriell/BehaviorScorePython/blob/master/plots/compara.png">
