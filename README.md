@@ -4,9 +4,11 @@ O objetivo deste foi comparar quatro abordagens distintas para modelagem de info
 
 <img align="center" width="600" height="400"  src="https://github.com/WOLFurriell/BehaviorScorePython/blob/master/plots/donut3.png">
 
-Como é possível verificar a distribuição da variável targe é relativamente desbalanceada, deste modo, foi realizada um undersampling na base, para 
+Como é possível verificar a distribuição da variável target é relativamente desbalanceada, deste modo, foi realizada um undersampling na base, para balancear a amostra. 
 
 <img align="center" width="800" height="500"  src="https://github.com/WOLFurriell/BehaviorScorePython/blob/master/plots/hist3.png">
+
+
 
 <img align="center" width="800" height="500"  src="https://github.com/WOLFurriell/BehaviorScorePython/blob/master/plots/Box3.png">
 
