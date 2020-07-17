@@ -5,11 +5,11 @@ O objetivo deste foi comparar quatro abordagens distintas para modelagem de info
 <img align="center" width="600" height="400"  src="https://github.com/WOLFurriell/BehaviorScorePython/blob/master/plots/donut3.png">
 
 Como é possível verificar a distribuição da variável target é relativamente desbalanceada, deste modo, foi realizada um undersampling na base, para balancear a amostra. 
-Tal método equaliza a informação desbalanceada diminuindo de forma aleatória o conjunto de observações com a classificação majoritária.
+Tal método equaliza a informação desbalanceada diminuindo de forma aleatória o conjunto com a classificação majoritária. Pare este estudo realizou-se um balanceamento 66/33.
 
 <img align="center" width="500" height="300"  src="https://github.com/WOLFurriell/BehaviorScorePython/blob/master/plots/balanc.png">
 
-
+No gráfico acima pode-se observar os resultados da variável target para a base balanceada e desbalanceada.
 
 <img align="center" width="800" height="500"  src="https://github.com/WOLFurriell/BehaviorScorePython/blob/master/plots/hist3.png">
 
