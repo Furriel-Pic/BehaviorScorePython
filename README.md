@@ -16,6 +16,8 @@ Tal método equaliza a informação desbalanceada diminuindo de forma aleatória
 
 No gráfico acima pode-se observar os resultados da variável target para a base balanceada e desbalanceada.
 
+<table><thead><tr><th colspan="2">Volume de missings</th></tr></thead><tbody><tr><td>Perf_final :</td><td>0</td></tr><tr><td>UltPercLimit :</td><td>0</td></tr><tr><td>Idade :</td><td>0</td></tr><tr><td>N_Atraso30_59Dias :</td><td>0</td></tr><tr><td>RazaoGastos :</td><td>0</td></tr><tr><td>RendaMensal :</td><td>17753</td></tr><tr><td>N_EmeprestimosAbertos :</td><td>0</td></tr><tr><td>N_atrasos_Ult90Dias :</td><td>0</td></tr><tr><td>N_emprestimos :</td><td>0</td></tr><tr><td>N_Atraso60_89Dias :</td><td>0</td></tr><tr><td>N_dependentes :</td><td>2300</td></tr></tbody></table>
+
 <img align="center" width="800" height="500"  src="https://github.com/WOLFurriell/BehaviorScorePython/blob/master/plots/hist3.png">
 
 Antes de iniciar o processo de modelagem dos dados foi realizada uma breve análise univariada das informações, tendo por objetivo avaliar a amplitide dos dados e a existência de outliers. Com isto, constatou-se que a variávei RazaoGastos, possuia valores desviantes a partir do percentil 99, desse modo, foi realizada uma substituição das informações acima desta métrica pelo P99. Além disso, foi aplicado o logaritmo natural para suavizar a distribuição da informação dado sua assimetria extrema. 
