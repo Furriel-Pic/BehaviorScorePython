@@ -37,13 +37,13 @@ Para encerrar a parte descritiva, tem-se o gráfico de correlação das variáve
 
 ### Peso de evidência e valor da informação (WOE e IV)
 
-Uma prática bastante comum na modelagem de crédito é realizar a trabsformação das variáveis por WOE, tal método elimina a influência de outliers e permite uma pré seleção das informações, considerando uma relação "linear" com a target e o IV (Information Value). Para o cálculo do WOE é preciso categorizar as variáveis contínuas, para tal utilizou-se seis percentis. O cálculo do WOE e do IV dados por:
+Uma prática bastante comum na modelagem de crédito é realizar a transformação das variáveis por WOE, tal método elimina a influência de outliers e permite uma pré seleção das informações, considerando uma relação "linear" com a variável target e uma avaliação da capacidade de discriminatória com o IV (Information Value). Para o cálculo do WOE é preciso categorizar as variáveis caso sejam contínuas. O cálculo do WOE e do IV são dados por:
 
 <a href="https://www.codecogs.com/eqnedit.php?latex=WOE&space;=&space;ln\left&space;(&space;\frac{%Bons}{%Maus}\right&space;)" target="_blank"><img src="https://latex.codecogs.com/gif.latex?WOE&space;=&space;ln\left&space;(&space;\frac{%Bons}{%Maus}\right&space;)" title="WOE = ln\left ( \frac{%Bons}{%Maus}\right )" /></a>, 
 
 <a href="https://www.codecogs.com/eqnedit.php?latex=IV=&space;\sum&space;\left&space;(&space;{%Bons}-{%Maus}\right&space;).WOE" target="_blank"><img src="https://latex.codecogs.com/gif.latex?IV=&space;\sum&space;\left&space;(&space;{%Bons}-{%Maus}\right&space;).WOE" title="IV= \sum \left ( {%Bons}-{%Maus}\right ).WOE" /></a>
 
-Considera-se que valores de IV < 0.1, indicam baixa capacidade de discriminação entre bons e maus, entre 0.1 e 0.3 médio e maior que 0.3 alto. É válido ressaltar que as categorias das variáveis para aplicação do WOE devem ter pelo menos 5% da distribuição geral e volume tanto de eventos como não eventos.
+Considera-se que valores de IV < 0.1, indicam baixa capacidade de discriminação entre eventos e não eventos, entre 0.1 e 0.3 média e maior que 0.3 alta. É válido ressaltar que as categorias das variáveis para aplicação do WOE devem ter pelo menos 5% da distribuição geral dos dados e volume diferente de zero tanto para eventos como não eventos.
 
 <img align="center" width="800" height="1300"  src="https://github.com/WOLFurriell/BehaviorScorePython/blob/master/plots/WOE4.png">
 
