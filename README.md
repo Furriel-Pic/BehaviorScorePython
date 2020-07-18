@@ -57,4 +57,8 @@ Quanto aos resultados finais, verifica-se as medidas de avaliação dos modelos,
 
 <img align="center" width="900" height="400"  src="https://github.com/WOLFurriell/BehaviorScorePython/blob/master/plots/compara.png">
 
-Por fim, selecionou-se as medidas de 
+Por fim, selecionou-se as medidas de Acurácia, AUC, KS, LogLoss e Gini e foi aplicada a padronização MinMáx para mantê-las no mesmo intervalo de 0 a 1 e com o mesmo peso, a padronização é dada por:
+
+<a href="https://www.codecogs.com/eqnedit.php?latex=X_{pad}&space;=&space;\frac{X&space;-&space;X_{min}}{X_{max}&space;-&space;X_{min}}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?X_{pad}&space;=&space;\frac{X&space;-&space;X_{min}}{X_{max}&space;-&space;X_{min}}" title="X_{pad} = \frac{X - X_{min}}{X_{max} - X_{min}}" /></a>
+
+Somando estes resultados, o modelos que mais pontuou nas quatro medidas de avaliação foi o Random Forest com dados desbalanceados e variáveis contínuas.
