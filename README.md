@@ -51,7 +51,7 @@ Para a ordenação dos resultados, isto é, se as predições de indivíduos mau
 
 Pelo gráfico acima, constata-se que todos os modelos apresentaram um ajuste satisfatório, sem apresentar inversões acentuadas no decorrer das curvas.
 
-<img align="center" width="800" height="2100"  src="https://github.com/WOLFurriell/BehaviorScorePython/blob/master/plots/ranks.png">
+<img align="center" width="800" height="2100"  src="https://github.com/WOLFurriell/BehaviorScorePython/blob/master/plots/ranks5.png">
 
 For fim, verifica-se as medidas de avaliação dos modelos, no estudo foram considerados a Acurácia, Precisão, Recall, LogLoss, AUC, KS, Gini, ASE e Shift AUC. Assim, constata-se que os modelos de Gradient Boosting e Radom Forest para bases desbalanceadas e variáveis contínuas foram os que melhor performaram. 
 
