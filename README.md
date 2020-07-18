@@ -55,7 +55,7 @@ Na tabela abaixo é possível verificar um resumo dos modelos empregados.
 
 <table><thead><tr><th></th><th>WOE <br>Balanceado</th><th>WOE<br> Desbalanceado</th><th>Contínuas <br>Balanceado</th><th>Contínuas<br>Desbalanceado</th></tr></thead><tbody><tr><td>1</td><td colspan="4">Regressão Logística </td></tr><tr><td>2</td><td colspan="4">Random Forest</td></tr><tr><td>3</td><td colspan="4">Gradiet boosting</td></tr><tr><td>4</td><td colspan="4">AdaBoost</td></tr><tr><td>5</td><td colspan="4">Redes Neurais</td></tr></tbody></table>
 
-Para a ordenação dos resultados, isto é, se as predições de indivíduos maus dividida em dez faixas segue a proporção de maus dentro das mesmas. Para tal, foi ultilizada a medida de Lift, dada por:
+Para avaliar a ordenação da predição segundo a resposta observada, isto é, se as predições dos indivíduos maus dividida em dez faixas seguem a proporção de maus obsercados dentro das mesmas. Foi ultilizada a medida de Lift, dada por:
 
 <a href="https://www.codecogs.com/eqnedit.php?latex=Lift_{fx}&space;=&space;\frac{%Maus_{fx}}{%Maus_{obs}}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?Lift_{fx}&space;=&space;\frac{%Maus_{fx}}{%Maus_{obs}}" title="Lift = \frac{%Maus_{fx}}{%Maus_{obs}}" /></a>
 
