@@ -3,9 +3,9 @@
 
 ### Comparação de modelos e transformação de dados para análise de crédito (Give Me Some Credit Kaggle)
 
-O objetivo deste estudo foi comparar quatro abordagens distintas para modelagem de informações de crédito, considerando bases balanceados, desbalanceadas e preditoras trsnformadas por WOE, bem como em sua escala originais. No processo de modelagem foram utilizados os algoritmos de Random Forest, Redes Neurais, AdaBoost, Gradient Boosting e Regressão Logística, em cada um destes casos foram realizadas permutações nos hiperparâmetros dos modelos(tuning), com o intuito de selecionar o melhor modelo para cada um dos quatro cenários.
+O objetivo deste estudo foi comparar quatro abordagens distintas para modelagem de crédito, considerando bases balanceados, desbalanceadas, variáveis trasnformadas por WOE, bem como em sua escala original. No processo de modelagem foram utilizados os algoritmos de Random Forest, Redes Neurais, AdaBoost, Gradient Boosting e Regressão Logística, em cada um destes casos foram realizadas permutações nos hiperparâmetros dos modelos(tuning), com o intuito de selecionar o mais adequado para cada um dos quatro cenários.
 
-A base utilizada no estudo pode ser obtida em Kaggle: https://www.kaggle.com/c/GiveMeSomeCredit
+A base utilizada no estudo pode ser obtida no site Kaggle (https://www.kaggle.com/c/GiveMeSomeCredit) e conta com onze variáveis relacionadas principalmente ao comportamento do indivíduo no crédito. A variável resposta é uma dummy, que indica os casos que atingiram atrasos superiores a 90 dias.
 
 <img align="center" width="600" height="360"  src="https://github.com/WOLFurriell/BehaviorScorePython/blob/master/plots/donut3.png">
 
