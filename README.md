@@ -70,3 +70,4 @@ Por fim, selecionou-se as medidas de Acurácia, AUC, KS, LogLoss e Gini e foi ap
 <a href="https://www.codecogs.com/eqnedit.php?latex=X_{pad}&space;=&space;\frac{X&space;-&space;X_{min}}{X_{max}&space;-&space;X_{min}}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?X_{pad}&space;=&space;\frac{X&space;-&space;X_{min}}{X_{max}&space;-&space;X_{min}}" title="X_{pad} = \frac{X - X_{min}}{X_{max} - X_{min}}" /></a>
 
 Somando estes resultados, o modelos que mais pontuou nas quatro medidas de avaliação foi o Random Forest com dados desbalanceados e variáveis contínuas.
+.
