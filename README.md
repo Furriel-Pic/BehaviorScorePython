@@ -25,6 +25,10 @@ No gráfico acima é possível verificar as preditoras segundo a variável targe
 
 Para encerrar a parte descritiva, tem-se o gráfico de correlação das preditoras em que não obteve-se valores que repretaram qualquer indicio de multicolinearidades para os modelos de regressão. Ressalta-se que a correlação foi obtida por Pearson para informações contínuas e Spearman para as discretas.
 
+Uma prática bastante comum na modelagem de crédito é realizar a trabsformação das variáveis por WOE, tal método elimina a influência de outliers e permite uma pré seleção das informações, considerando uma relação "linear" com a target e o IV (Information Value). Para o cálculo do WOE é preciso categorizar as variáveis contínuas, para tal utilizou-se seis percentis. O cálculo desta transformação é dado por:
+
+<a href="https://www.codecogs.com/eqnedit.php?latex=WOE&space;=&space;ln\left&space;(&space;\frac{%Bons}{%Maus}\right&space;)" target="_blank"><img src="https://latex.codecogs.com/gif.latex?WOE&space;=&space;ln\left&space;(&space;\frac{%Bons}{%Maus}\right&space;)" title="WOE = ln\left ( \frac{%Bons}{%Maus}\right )" /></a>
+
 <img align="center" width="800" height="1300"  src="https://github.com/WOLFurriell/BehaviorScorePython/blob/master/plots/WOE2.png">
 
 
