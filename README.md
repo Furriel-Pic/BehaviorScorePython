@@ -21,6 +21,8 @@ No gráfico acima é possível verificar as preditoras segundo a variável targe
 
 <img align="center" width="600" height="400"  src="https://github.com/WOLFurriell/BehaviorScorePython/blob/master/plots/cor1.png">
 
+Para encerrar a parte descritiva, tem-se o gráfico de correlação das preditoras em que não obteve-se valores que repretaram qualquer indicio de multicolinearidades para os modelos de regressão. Ressalta-se que a correlação foi obtida por Pearson para informações contínuas e Spearman para as discretas.
+
 <img align="center" width="800" height="1300"  src="https://github.com/WOLFurriell/BehaviorScorePython/blob/master/plots/WOE2.png">
 
 
