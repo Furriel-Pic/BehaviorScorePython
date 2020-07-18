@@ -5,11 +5,11 @@
 
 O objetivo deste estudo foi comparar quatro abordagens distintas para modelagem de crédito, considerando bases balanceados, desbalanceadas, variáveis trasnformadas por WOE, bem como em sua escala original. No processo de modelagem foram utilizados os algoritmos de Random Forest, Redes Neurais, AdaBoost, Gradient Boosting e Regressão Logística, em cada um destes casos foram realizadas permutações nos hiperparâmetros dos modelos(tuning), com o intuito de selecionar o mais adequado para cada um dos quatro cenários.
 
-A base utilizada no estudo pode ser obtida no site Kaggle (https://www.kaggle.com/c/GiveMeSomeCredit) e conta com onze variáveis relacionadas principalmente ao comportamento do indivíduo no crédito. A variável resposta é uma dummy, que indica os casos que atingiram atrasos superiores a 90 dias.
+A base utilizada no estudo pode ser obtida no site Kaggle (https://www.kaggle.com/c/GiveMeSomeCredit) e conta principalmente com variáveis relacionadas ao comportamento do indivíduo no crédito. A variável target é uma dummy, que indica os casos que atingiram atrasos superiores a 90 dias.
 
 <img align="center" width="600" height="360"  src="https://github.com/WOLFurriell/BehaviorScorePython/blob/master/plots/donut3.png">
 
-Como é possível verificar a distribuição da variável target é relativamente desbalanceada, deste modo, foi realizada um undersampling na base, para balancear a amostra. 
+A distribuição da variável target é desbalanceada, deste modo, foi realizada um undersampling na base, para balancear a amostra. 
 Tal método equaliza a informação desbalanceada diminuindo de forma aleatória o conjunto com a classificação majoritária. Pare este estudo realizou-se um balanceamento 66/33.
 
 <img align="center" width="800" height="350"  src="https://github.com/WOLFurriell/BehaviorScorePython/blob/master/plots/balanc2.png">
