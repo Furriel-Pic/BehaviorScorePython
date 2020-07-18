@@ -48,7 +48,7 @@ Na tabela abaixo é possível verificar um resumo dos modelos empregados.
 
 Para a ordenação dos resultados, isto é, se as predições de indivíduos maus dividida em dez faixas segue a proporção de maus dentro das mesmas. Para tal, foi ultilizada a medida de Lift, dada por:
 
-<a href="https://www.codecogs.com/eqnedit.php?latex=Lift&space;=&space;\frac{%Maus_{fx}}{%Maus_{obs}}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?Lift&space;=&space;\frac{%Maus_{fx}}{%Maus_{obs}}" title="Lift = \frac{%Maus_{fx}}{%Maus_{obs}}" /></a>
+<a href="https://www.codecogs.com/eqnedit.php?latex=Lift_{fx}&space;=&space;\frac{%Maus_{fx}}{%Maus_{obs}}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?Lift&space;=&space;\frac{%Maus_{fx}}{%Maus_{obs}}" title="Lift = \frac{%Maus_{fx}}{%Maus_{obs}}" /></a>
 
 <img align="center" width="800" height="700"  src="https://github.com/WOLFurriell/BehaviorScorePython/blob/master/plots/ordena4.png">
 
