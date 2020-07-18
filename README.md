@@ -47,12 +47,13 @@ Para a ordenação dos resultados, isto é, se as predições de indivíduos mau
 
 <a href="https://www.codecogs.com/eqnedit.php?latex=Lift&space;=&space;\frac{%Maus_{fx}}{%Maus_{obs}}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?Lift&space;=&space;\frac{%Maus_{fx}}{%Maus_{obs}}" title="Lift = \frac{%Maus_{fx}}{%Maus_{obs}}" /></a>
 
-
 <img align="center" width="800" height="700"  src="https://github.com/WOLFurriell/BehaviorScorePython/blob/master/plots/ordena4.png">
 
 Pelo gráfico acima, constata-se que todos os modelos apresentaram um ajuste satisfatório, sem apresentar inversões acentuadas no decorrer das curvas.
 
 <img align="center" width="800" height="2100"  src="https://github.com/WOLFurriell/BehaviorScorePython/blob/master/plots/ranks.png">
+
+For fim, verifica-se as medidas de avaliação dos modelos, no estudo foram considerados a Acurácia, Precisão, Recall, LogLoss, AUC, KS, Gini, ASE e Shift AUC.
 
 <img align="center" width="900" height="400"  src="https://github.com/WOLFurriell/BehaviorScorePython/blob/master/plots/compara.png">
 
