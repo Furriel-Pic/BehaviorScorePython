@@ -33,10 +33,9 @@ Uma prática bastante comum na modelagem de crédito é realizar a trabsformaç�
 
 Considera-se que valores de IV < 0.1, indicam baixa capacidade de discriminação entre bons e maus, entre 0.1 e 0.3 médio e maior que 0.3 alto. É válido ressaltar que as categorias das variáveis para aplicação do WOE devem ter pelo menos 5% da distribuição geral e volume tanto de eventos como não eventos.
 
-<img align="center" width="800" height="1300"  src="https://github.com/WOLFurriell/BehaviorScorePython/blob/master/plots/WOE2.png">
+<img align="center" width="800" height="1300"  src="https://github.com/WOLFurriell/BehaviorScorePython/blob/master/plots/WOE4.png">
 
-Com os resultados do WOE nota-se que a variável RazaoGastos apresenta uma inversão, isto é, não segue uma relação "linear" com a target, deste modo, para garantir a interpretabilidade dos resultados dos modelos, principalmente quando se trata da Regressão Logística, não a consideramos.
-
+Com os resultados do WOE nota-se que a variável RazaoGastos apresenta uma inversão, isto é, não segue uma relação "linear" com a target, deste modo, para garantir a interpretabilidade dos resultados dos modelos, principalmente quando se trata da Regressão Logística, não a consideramos. As preditoras que apresentaram maiores IV foram N_Atraso60_89Dias, N_atrasos_Ult90Dias e CAT_UltPercLimit.
 
 <img align="center" width="800" height="700"  src="https://github.com/WOLFurriell/BehaviorScorePython/blob/master/plots/ordena.png">
 
