@@ -65,13 +65,9 @@ Pelo gráfico acima, constata-se que todos os modelos apresentaram um ajuste sat
 
 <img align="center" width="800" height="2100"  src="https://github.com/WOLFurriell/BehaviorScorePython/blob/master/plots/ranks5.png">
 
-Quanto aos resultados finais, verifica-se as medidas de avaliação dos modelos, no estudo foram considerados a Acurácia, Precisão, Recall, LogLoss, AUC, KS, Gini, ASE e Shift AUC. Assim, constata-se que os modelos de Gradient Boosting e Radom Forest para bases desbalanceadas e variáveis contínuas foram os que melhor performaram. 
+Quanto as medidas de avaliação, no estudo foram considerados a Acurácia, Precisão, Recall, LogLoss, AUC, KS, Gini, ASE e Shift AUC. Dessa forma, constatou-se que os modelos de Gradient Boosting e Radom Forest para bases desbalanceadas e variáveis contínuas foram os que melhor performaram. 
 
 <img align="center" width="900" height="400"  src="https://github.com/WOLFurriell/BehaviorScorePython/blob/master/plots/compara.png">
 
-Por fim, selecionou-se as medidas de Acurácia, AUC, KS, LogLoss e Gini e foi aplicada a padronização MinMáx para mantê-las no mesmo intervalo de 0 a 1 e com o mesmo peso, a padronização é dada por:
+Por fim, selecionou-se as medidas de Acurácia, AUC, KS, LogLoss e Gini e foi aplicada a padronização MinMáx para mantê-las no mesmo intervalo de 0 a 1 e com o mesmo peso. Somando estes resultados, verificou-se que o modelo que mais pontuou foi o Random Forest com dados desbalanceados e variáveis contínuas.
 
-<a href="https://www.codecogs.com/eqnedit.php?latex=X_{pad}&space;=&space;\frac{X&space;-&space;X_{min}}{X_{max}&space;-&space;X_{min}}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?X_{pad}&space;=&space;\frac{X&space;-&space;X_{min}}{X_{max}&space;-&space;X_{min}}" title="X_{pad} = \frac{X - X_{min}}{X_{max} - X_{min}}" /></a>
-
-Somando estes resultados, o modelos que mais pontuou nas quatro medidas de avaliação foi o Random Forest com dados desbalanceados e variáveis contínuas.
-.
