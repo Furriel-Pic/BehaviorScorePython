@@ -32,7 +32,7 @@ No gráfico acima tem-se o box-plot das variáveis preditoras segundo a target, 
 
 <img align="center" width="600" height="400"  src="https://github.com/WOLFurriell/BehaviorScorePython/blob/master/plots/cor1.png">
 
-Para encerrar a parte descritiva, tem-se o gráfico de correlação das preditoras em que não obteve-se valores que repretaram qualquer indicio de multicolinearidades para os modelos de regressão. Ressalta-se que a correlação foi obtida por Pearson para informações contínuas e Spearman para as discretas.
+Para encerrar a parte descritiva, tem-se o gráfico de correlação das variáveis preditoras. Avaliando seus resultados não foram constatados graus de correlação que representassem problemas para os modelos de regressão. Ressalta-se que foi aplicado a correlação de Pearson para informações contínuas e Spearman para as discretas.
 
 Uma prática bastante comum na modelagem de crédito é realizar a trabsformação das variáveis por WOE, tal método elimina a influência de outliers e permite uma pré seleção das informações, considerando uma relação "linear" com a target e o IV (Information Value). Para o cálculo do WOE é preciso categorizar as variáveis contínuas, para tal utilizou-se seis percentis. O cálculo do WOE e do IV dados por:
 
