@@ -34,6 +34,8 @@ No gráfico acima tem-se o box-plot das variáveis preditoras segundo a target, 
 
 Para encerrar a parte descritiva, tem-se o gráfico de correlação das variáveis preditoras. Avaliando seus resultados não foram constatados graus de correlação que representassem problemas para os modelos de regressão. Ressalta-se que foi aplicado a correlação de Pearson para informações contínuas e Spearman para as discretas.
 
+### Peso de evidência e valor da informação (WOE e IV)
+
 Uma prática bastante comum na modelagem de crédito é realizar a trabsformação das variáveis por WOE, tal método elimina a influência de outliers e permite uma pré seleção das informações, considerando uma relação "linear" com a target e o IV (Information Value). Para o cálculo do WOE é preciso categorizar as variáveis contínuas, para tal utilizou-se seis percentis. O cálculo do WOE e do IV dados por:
 
 <a href="https://www.codecogs.com/eqnedit.php?latex=WOE&space;=&space;ln\left&space;(&space;\frac{%Bons}{%Maus}\right&space;)" target="_blank"><img src="https://latex.codecogs.com/gif.latex?WOE&space;=&space;ln\left&space;(&space;\frac{%Bons}{%Maus}\right&space;)" title="WOE = ln\left ( \frac{%Bons}{%Maus}\right )" /></a>, 
