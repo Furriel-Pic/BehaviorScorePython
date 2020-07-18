@@ -1,6 +1,3 @@
-### DRAFT -----------------------------------------
-### DRAFT -----------------------------------------
-
 ### Comparação de modelos e transformação de dados para análise de crédito (Give Me Some Credit Kaggle)
 
 O objetivo deste estudo foi comparar quatro abordagens distintas para modelagem de crédito, considerando bases balanceados, desbalanceadas, variáveis trasnformadas por WOE, bem como em sua escala original. No processo de modelagem foram utilizados os algoritmos de Random Forest, Redes Neurais, AdaBoost, Gradient Boosting e Regressão Logística, em cada um destes casos foram realizadas permutações nos hiperparâmetros dos modelos(tuning), com o intuito de selecionar o mais adequado para cada um dos quatro cenários.
