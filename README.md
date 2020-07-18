@@ -18,7 +18,7 @@ No gráfico acima pode-se observar os resultados da variável target para a base
 
 <img align="center" width="800" height="500"  src="https://github.com/WOLFurriell/BehaviorScorePython/blob/master/plots/hist3.png">
 
-Antes de iniciar a modelagem dos dados, foi realizada uma breve análise univariada das variáveis preditoras, tendo por objetivo avaliar a amplitide e a existência de outliers nas informações. Com isto, constatou-se que a variávei RazaoGastos, possuia valores desviantes a partir do percentil 99, desse modo, foi realizada uma substituição das informações acima desta medida pelo próprio P99 e aplicado o logaritmo natural para suavizar a distribuição da informação. 
+Antes de iniciar o processo de modelagem dos dados foi realizada uma breve análise univariada das informações, tendo por objetivo avaliar a amplitide dos dados e a existência de outliers. Com isto, constatou-se que a variávei RazaoGastos, possuia valores desviantes a partir do percentil 99, desse modo, foi realizada uma substituição das informações acima desta métrica pelo P99. Além disso, foi aplicado o logaritmo natural para suavizar a distribuição da informação dado sua assimetria extrema. 
 
 <img align="center" width="800" height="500"  src="https://github.com/WOLFurriell/BehaviorScorePython/blob/master/plots/Box3.png">
 
