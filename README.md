@@ -39,7 +39,7 @@ Considera-se que valores de IV < 0.1, indicam baixa capacidade de discriminaçã
 
 <img align="center" width="800" height="700"  src="https://github.com/WOLFurriell/BehaviorScorePython/blob/master/plots/ordena.png">
 
-<img align="center" width="800" height="1900"  src="https://github.com/WOLFurriell/BehaviorScorePython/blob/master/plots/ranks.png">
+<img align="center" width="800" height="2100"  src="https://github.com/WOLFurriell/BehaviorScorePython/blob/master/plots/ranks.png">
 
 <img align="center" width="800" height="400"  src="https://github.com/WOLFurriell/BehaviorScorePython/blob/master/plots/compara.png">
 
