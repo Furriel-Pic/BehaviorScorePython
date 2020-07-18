@@ -39,50 +39,7 @@ Com os resultados do WOE nota-se que a variável RazaoGastos apresenta uma inver
 
 ### Resultados dos modelos de classificação
 
-<style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;}
-.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg .tg-v0hj{background-color:#efefef;border-color:inherit;font-weight:bold;text-align:center;vertical-align:top}
-.tg .tg-c3ow{border-color:inherit;text-align:center;vertical-align:top}
-.tg .tg-dvid{background-color:#efefef;border-color:inherit;font-weight:bold;text-align:left;vertical-align:top}
-.tg .tg-7btt{border-color:inherit;font-weight:bold;text-align:center;vertical-align:top}
-</style>
-<table class="tg">
-<thead>
-  <tr>
-    <th class="tg-c3ow"></th>
-    <th class="tg-v0hj">WOE <br>Balanceado</th>
-    <th class="tg-v0hj">WOE<br> Desbalanceado</th>
-    <th class="tg-v0hj">Contínuas <br>Balanceado</th>
-    <th class="tg-v0hj">Contínuas<br>Desbalanceado</th>
-  </tr>
-</thead>
-<tbody>
-  <tr>
-    <td class="tg-dvid">1</td>
-    <td class="tg-7btt" colspan="4">Regressão Logística </td>
-  </tr>
-  <tr>
-    <td class="tg-dvid">2</td>
-    <td class="tg-7btt" colspan="4">Random Forest</td>
-  </tr>
-  <tr>
-    <td class="tg-dvid">3</td>
-    <td class="tg-7btt" colspan="4">Gradiet boosting</td>
-  </tr>
-  <tr>
-    <td class="tg-dvid">4</td>
-    <td class="tg-7btt" colspan="4">AdaBoost</td>
-  </tr>
-  <tr>
-    <td class="tg-dvid">5</td>
-    <td class="tg-7btt" colspan="4">Redes Neurais</td>
-  </tr>
-</tbody>
-</table>
+<table><thead><tr><th></th><th>WOE <br>Balanceado</th><th>WOE<br> Desbalanceado</th><th>Contínuas <br>Balanceado</th><th>Contínuas<br>Desbalanceado</th></tr></thead><tbody><tr><td>1</td><td colspan="4">Regressão Logística </td></tr><tr><td>2</td><td colspan="4">Random Forest</td></tr><tr><td>3</td><td colspan="4">Gradiet boosting</td></tr><tr><td>4</td><td colspan="4">AdaBoost</td></tr><tr><td>5</td><td colspan="4">Redes Neurais</td></tr></tbody></table>
 
 <img align="center" width="800" height="700"  src="https://github.com/WOLFurriell/BehaviorScorePython/blob/master/plots/ordena4.png">
 
