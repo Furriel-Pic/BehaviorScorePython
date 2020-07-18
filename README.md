@@ -17,6 +17,8 @@ Antes de iniciar a modelagem dos dados, foi realizada uma breve análise univari
 
 <img align="center" width="800" height="500"  src="https://github.com/WOLFurriell/BehaviorScorePython/blob/master/plots/Box3.png">
 
+No gráfico acima é possível verificar as preditoras segundo a variável target, em que é possível avaliar que individualmente nota-se disatinções entre as médias das informaões quando verifica-se os indivíduos bons e maus.
+
 <img align="center" width="600" height="400"  src="https://github.com/WOLFurriell/BehaviorScorePython/blob/master/plots/cor1.png">
 
 <img align="center" width="800" height="1300"  src="https://github.com/WOLFurriell/BehaviorScorePython/blob/master/plots/WOE2.png">
