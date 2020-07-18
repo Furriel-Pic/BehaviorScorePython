@@ -31,7 +31,7 @@ Uma prática bastante comum na modelagem de crédito é realizar a trabsformaç�
 
 <a href="https://www.codecogs.com/eqnedit.php?latex=IV=&space;\sum&space;\left&space;(&space;{%Bons}-{%Maus}\right&space;).WOE" target="_blank"><img src="https://latex.codecogs.com/gif.latex?IV=&space;\sum&space;\left&space;(&space;{%Bons}-{%Maus}\right&space;).WOE" title="IV= \sum \left ( {%Bons}-{%Maus}\right ).WOE" /></a>
 
-Considera-se que valores de IV < 0.1, indicam baixa capacidade de discriminação entre bons e maus, entre 0.1 e 0.3 médio e maior que 0.3 alto.
+Considera-se que valores de IV < 0.1, indicam baixa capacidade de discriminação entre bons e maus, entre 0.1 e 0.3 médio e maior que 0.3 alto. É válido ressaltar que as categorias das variáveis para aplicação do WOE devem ter pelo menos 5% da distribuição geral e volume tanto de eventos como não eventos.
 
 <img align="center" width="800" height="1300"  src="https://github.com/WOLFurriell/BehaviorScorePython/blob/master/plots/WOE2.png">
 
