@@ -44,7 +44,8 @@ Considera-se que valores de IV < 0.1, indicam baixa capacidade de discriminaçã
 
 <img align="center" width="800" height="1300"  src="https://github.com/WOLFurriell/BehaviorScorePython/blob/master/plots/WOE4.png">
 
-Com os resultados do WOE nota-se que a variável RazaoGastos apresenta uma inversão, isto é, não segue uma relação "linear" com a target, deste modo, para garantir a interpretabilidade dos resultados dos modelos, principalmente quando se trata da Regressão Logística, não a consideramos na análise. Além disso, destaca-se que as preditoras que apresentaram maiores IV foram N_Atraso60_89Dias, N_atrasos_Ult90Dias e CAT_UltPercLimit. Uma alternativa para considerar variáveis que apresentam informação é utilizá-las como dummy, contudo, tal abordagem é interessante desde que, a variável selecionada tenha explicação prática dessa forma.
+Com os resultados do WOE nota-se que a variável RazaoGastos apresenta uma inversão, isto é, não segue uma relação "linear" com a target, deste modo, para garantir a interpretabilidade dos resultados dos modelos, principalmente quando se trata da Regressão Logística, não a consideramos na análise. Uma alternativa para considerar variáveis categóricas ou categorizadas, não seguem ordenação seria utilizá-las como dummy, contudo, tal abordagem é interessante desde que, a variável selecionada tenha explicação prática. 
+Destaca-se que as preditoras que apresentaram maiores IV foram N_Atraso60_89Dias, N_atrasos_Ult90Dias e CAT_UltPercLimit.
 
 ### Resultados dos modelos de classificação
 
@@ -52,7 +53,7 @@ Na tabela abaixo é possível verificar um resumo dos modelos empregados.
 
 <table><thead><tr><th></th><th>WOE <br>Balanceado</th><th>WOE<br> Desbalanceado</th><th>Contínuas <br>Balanceado</th><th>Contínuas<br>Desbalanceado</th></tr></thead><tbody><tr><td>1</td><td colspan="4">Regressão Logística </td></tr><tr><td>2</td><td colspan="4">Random Forest</td></tr><tr><td>3</td><td colspan="4">Gradiet boosting</td></tr><tr><td>4</td><td colspan="4">AdaBoost</td></tr><tr><td>5</td><td colspan="4">Redes Neurais</td></tr></tbody></table>
 
-Para avaliar a ordenação da predição segundo a resposta observada, isto é, se as predições dos indivíduos maus dividida em dez faixas seguem a proporção de maus obsercados dentro das mesmas. Foi ultilizada a medida de Lift, dada por:
+Para avaliar a ordenação da predição segundo a resposta observada, isto é, se as predições dos indivíduos maus dividida em dez faixas seguem a proporção de maus observados dentro das mesmas. Foi ultilizada a medida de Lift, dada por:
 
 <a href="https://www.codecogs.com/eqnedit.php?latex=Lift_{fx}&space;=&space;\frac{%Maus_{fx}}{%Maus_{obs}}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?Lift_{fx}&space;=&space;\frac{%Maus_{fx}}{%Maus_{obs}}" title="Lift = \frac{%Maus_{fx}}{%Maus_{obs}}" /></a>
 
