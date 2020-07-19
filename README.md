@@ -59,7 +59,7 @@ Para avaliar a ordenação da predição segundo a resposta observada, isto é, 
 
 <img align="center" width="800" height="700"  src="https://github.com/WOLFurriell/BehaviorScorePython/blob/master/plots/ordena4.png">
 
-Pelo gráfico acima, constata-se que todos os modelos apresentaram um ajuste satisfatório, sem inversões acentuadas no decorrer das curvas.
+Pelo gráfico acima, constata-se que todos os modelos apresentaram um ajuste satisfatório, sem inversões acentuadas no decorrer das curvas. Ou seja, conforma aumenta nossa probabilidade de maus predita, também aumenta a porcentagem de maus observada.
 
 <img align="center" width="800" height="2100"  src="https://github.com/WOLFurriell/BehaviorScorePython/blob/master/plots/ranks5.png">
 
