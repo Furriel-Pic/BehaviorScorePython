@@ -8,7 +8,7 @@ A base utilizada no estudo pode ser obtida no site Kaggle (https://www.kaggle.co
 <img align="center" width="600" height="360"  src="https://github.com/WOLFurriell/BehaviorScorePython/blob/master/plots/donut3.png">
 
 A distribuição da variável target é desbalanceada, deste modo, foi realizada um undersampling na base, para balancear a amostra. 
-Tal método equaliza a informação desbalanceada diminuindo de forma aleatória o conjunto com a classificação majoritária. Pare este estudo realizou-se um balanceamento 66/33.
+Tal método equaliza a informação desbalanceada diminuindo de forma aleatória o conjunto com a classificação majoritária. Tendo em vista tal aspecto, neste estudo realizou-se um balanceamento 66,6/33,3.
 
 <img align="center" width="800" height="350"  src="https://github.com/WOLFurriell/BehaviorScorePython/blob/master/plots/balanc2.png">
 
@@ -18,15 +18,15 @@ No gráfico acima pode-se observar os resultados da variável target para a base
 
 <table><thead><tr><th>Percentis</th><th>UltPercLimit</th><th>Idade</th><th>N_Atraso30_59Dias</th><th>RazaoGastos</th><th>RendaMensal</th><th>N_EmeprestimosAbertos</th><th>N_atrasos_Ult90Dias</th><th>N_emprestimos</th><th>N_Atraso60_89Dias</th><th>N_dependentes</th></tr></thead><tbody><tr><td>0.10</td><td>0.002969</td><td>33.0</td><td>0.0</td><td>0.030874</td><td>2005.0</td><td>3.0</td><td>0.0</td><td>0.0</td><td>0.0</td><td>0.0</td></tr><tr><td>0.50</td><td>0.154181</td><td>52.0</td><td>0.0</td><td>0.366508</td><td>5400.0</td><td>8.0</td><td>0.0</td><td>1.0</td><td>0.0</td><td>0.0</td></tr><tr><td>0.80</td><td>0.698857</td><td>65.0</td><td>0.0</td><td>4.000000</td><td>9083.0</td><td>12.0</td><td>0.0</td><td>2.0</td><td>0.0</td><td>2.0</td></tr><tr><td>0.85</td><td>0.854021</td><td>68.0</td><td>1.0</td><td>269.150000</td><td>10100.0</td><td>13.0</td><td>0.0</td><td>2.0</td><td>0.0</td><td>2.0</td></tr><tr><td>0.90</td><td>0.981278</td><td>72.0</td><td>1.0</td><td>1267.000000</td><td>11666.0</td><td>15.0</td><td>0.0</td><td>2.0</td><td>0.0</td><td>2.0</td></tr><tr><td>0.95</td><td>1.000000</td><td>78.0</td><td>2.0</td><td>2449.000000</td><td>14587.6</td><td>18.0</td><td>1.0</td><td>3.0</td><td>1.0</td><td>3.0</td></tr><tr><td>0.99</td><td>1.092956</td><td>87.0</td><td>4.0</td><td>4979.040000</td><td>25000.0</td><td>24.0</td><td>3.0</td><td>4.0</td><td>2.0</td><td>4.0</td></tr><tr><td>0.99</td><td>1.092956</td><td>87.0</td><td>4.0</td><td>4979.040000</td><td>25000.0</td><td>24.0</td><td>3.0</td><td>4.0</td><td>2.0</td><td>4.0</td></tr><tr><td>1.00</td><td>50708.000000</td><td>109.0</td><td>98.0</td><td>329664.000000</td><td>3008750.0</td><td>58.0</td><td>98.0</td><td>54.0</td><td>98.0</td><td>20.0</td></tr></tbody></table>
 
-Dois pontos importantes a serem considerados no processo de modelagem são a avaliação dos missings e a identificação de outliers. Neste caso, verifica-se que a variável RendaMensal, possui 20% de missings, neste caso um estudo de imputação de dados pode ser empregado. Além disso, nota-se a existência de pontos influentes a partir do percentil 99. Desse modo, foi realizada a substituição das informações acima desta métrica pelo P99. 
+Dois pontos importantes a serem considerados no processo de modelagem são a avaliação dos missings e a identificação de outliers. Neste caso, verifica-se que a variável RendaMensal, possui 20% de missings, neste caso um estudo de imputação de dados pode ser empregado para o prenchimento dos casos faltantes. Além disso, nota-se a existência de pontos influentes a partir do percentil 99. Desse modo, foi realizada a substituição das informações acima desta métrica pelo P99. 
 
 <img align="center" width="800" height="500"  src="https://github.com/WOLFurriell/BehaviorScorePython/blob/master/plots/hist3.png">
 
-Antes de iniciar o processo de modelagem foi realizada uma breve análise univariada das informações, tendo por objetivo avaliar a distribuição dos dados. Partindo deste diagnóstico foi aplicado o logaritmo natural para suavizar a distribuição da informação RazaoGastos, dado sua assimetria extrema. 
+Antes de iniciar o processo de modelagem foi realizada uma breve análise univariada das informações, tendo por objetivo avaliar a distribuição dos dados. Partindo deste diagnóstico foi aplicado o logaritmo natural para suavizar a distribuição da RazaoGastos, dado sua assimetria extrema. 
 
 <img align="center" width="800" height="500"  src="https://github.com/WOLFurriell/BehaviorScorePython/blob/master/plots/Box3.png">
 
-No gráfico acima tem-se o box-plot das variáveis preditoras segundo a target, assim, é possível avaliar descritivamente que existem distinções entre as médias das informaões quando compara-se os indivíduos bons e maus.
+No gráfico acima tem-se os box-plots das variáveis preditoras segundo a target, nos quais, é possível avaliar descritivamente que existem distinções entre as médias das informaões quando comparados os indivíduos bons e maus.
 
 <img align="center" width="600" height="400"  src="https://github.com/WOLFurriell/BehaviorScorePython/blob/master/plots/cor1.png">
 
