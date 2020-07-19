@@ -8,7 +8,7 @@ A base utilizada no estudo pode ser obtida no site Kaggle (https://www.kaggle.co
 <img align="center" width="600" height="360"  src="https://github.com/WOLFurriell/BehaviorScorePython/blob/master/plots/donut3.png">
 
 A distribuição da variável target é desbalanceada, deste modo, foi realizada um undersampling na base, para balancear a amostra. 
-Tal método equaliza a informação desbalanceada diminuindo de forma aleatória o conjunto com a classificação majoritária. Tendo em vista tal aspecto, neste estudo realizou-se um balanceamento 66,6/33,3.
+Tal método equaliza a informação desbalanceada diminuindo de forma aleatória o conjunto com a classificação majoritária. Tendo em vista tal aspecto, neste estudo realizou-se um balanceamento 66.6/33.3.
 
 <img align="center" width="800" height="350"  src="https://github.com/WOLFurriell/BehaviorScorePython/blob/master/plots/balanc2.png">
 
@@ -26,7 +26,7 @@ Antes de iniciar o processo de modelagem foi realizada uma breve análise univar
 
 <img align="center" width="800" height="500"  src="https://github.com/WOLFurriell/BehaviorScorePython/blob/master/plots/Box3.png">
 
-No gráfico acima tem-se os box-plots das variáveis preditoras segundo a target, nos quais, é possível avaliar descritivamente que existem distinções entre as médias das informaões quando comparados os indivíduos bons e maus.
+No gráfico acima tem-se os box-plots das variáveis preditoras segundo a target, nos quais, é possível avaliar descritivamente que existem distinções entre as médias das informações quando comparados os indivíduos bons e maus.
 
 <img align="center" width="600" height="400"  src="https://github.com/WOLFurriell/BehaviorScorePython/blob/master/plots/cor1.png">
 
@@ -34,7 +34,7 @@ Para encerrar a parte descritiva, tem-se o gráfico de correlação das variáve
 
 ### Peso de evidência e valor da informação (WOE e IV)
 
-Uma prática bastante comum na modelagem de crédito é realizar a transformação das variáveis por WOE, tal método elimina a influência de outliers e permite uma pré seleção das informações, considerando uma relação "linear" com a variável target e uma avaliação da capacidade de discriminatória com o IV (Information Value). Para o cálculo do WOE é preciso categorizar as variáveis caso sejam contínuas. O cálculo do WOE e do IV são dados por:
+Uma prática bastante comum na modelagem de crédito é realizar a transformação das variáveis por WOE, tal método elimina a influência de outliers e permite uma pré seleção das informações, considerando uma relação "linear" com a variável target e uma avaliação da capacidade de discriminatória com o IV (Information Value). Para o cálculo do WOE é preciso categorizar as variáveis caso sejam contínuas. O WOE e IV são dados por:
 
 <a href="https://www.codecogs.com/eqnedit.php?latex=WOE&space;=&space;ln\left&space;(&space;\frac{%Bons}{%Maus}\right&space;)" target="_blank"><img src="https://latex.codecogs.com/gif.latex?WOE&space;=&space;ln\left&space;(&space;\frac{%Bons}{%Maus}\right&space;)" title="WOE = ln\left ( \frac{%Bons}{%Maus}\right )" /></a>, 
 
@@ -44,7 +44,7 @@ Considera-se que valores de IV < 0.1, indicam baixa capacidade de discriminaçã
 
 <img align="center" width="800" height="1300"  src="https://github.com/WOLFurriell/BehaviorScorePython/blob/master/plots/WOE4.png">
 
-Com os resultados do WOE nota-se que a variável RazaoGastos apresenta uma inversão, isto é, não segue uma relação "linear" com a target, deste modo, para garantir a interpretabilidade dos resultados dos modelos, principalmente quando se trata da Regressão Logística, não a consideramos na análise. Além disso, destaca-se que as preditoras que apresentaram maiores IV foram N_Atraso60_89Dias, N_atrasos_Ult90Dias e CAT_UltPercLimit.
+Com os resultados do WOE nota-se que a variável RazaoGastos apresenta uma inversão, isto é, não segue uma relação "linear" com a target, deste modo, para garantir a interpretabilidade dos resultados dos modelos, principalmente quando se trata da Regressão Logística, não a consideramos na análise. Além disso, destaca-se que as preditoras que apresentaram maiores IV foram N_Atraso60_89Dias, N_atrasos_Ult90Dias e CAT_UltPercLimit. Uma alternativa para considerar variáveis que apresentam informação é utilizá-las como dummy, contudo, tal abordagem é interessante desde que, a variável selecionada tenha explicação prática dessa forma.
 
 ### Resultados dos modelos de classificação
 
