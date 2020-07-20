@@ -7,7 +7,7 @@ A base utilizada no estudo pode ser obtida no site Kaggle (https://www.kaggle.co
 ### Análise descritiva
 <img align="center" width="600" height="360"  src="https://github.com/WOLFurriell/BehaviorScorePython/blob/master/plots/donut3.png">
 
-A distribuição da variável target é desbalanceada, deste modo, foi realizada um undersampling na base, para balancear a amostra. 
+Pelo gráfico exposto nota-se que a distribuição da variável target é desbalanceada, deste modo, foi realizada um undersampling na base, para balancear a amostra. 
 Tal método equaliza a informação desbalanceada diminuindo de forma aleatória o conjunto com a classificação majoritária. Tendo em vista tal aspecto, neste estudo realizou-se um balanceamento 66.6/33.3.
 
 <img align="center" width="800" height="350"  src="https://github.com/WOLFurriell/BehaviorScorePython/blob/master/plots/balanc2.png">
